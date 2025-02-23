@@ -85,7 +85,8 @@ if name and age:
 # Upload Birthday Selfie
 uploaded_file = st.file_uploader("Upload your Birthday Selfie! 📸", type=["jpg", "png"])
 if uploaded_file:
-    st.image(uploaded_file, caption="🎉 Your Birthday Selfie!", use_column_width=True)
+    st.image(uploaded_file, caption="🎉 Your Birthday Selfie!", use_container_width=True)
+
 
 # Blow the Candles Effect
 if st.button("Blow the Candles 🕯"):
